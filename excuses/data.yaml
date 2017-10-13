@@ -11,7 +11,7 @@ excuses:
     # - The sales department asked for it to be that way
     # - That must be an accounting department error
     - Debe de ser error del departamento de ventas
-    - Estaba trabajando en demasiado proyectos así que tuve que hacer eso rápido
+    - Estaba trabajando en demasiados proyectos así que tuve que hacer eso rápido
     - Todavía estoy trabajando en eso
     - Por qué lo quieren así?
     # - The fail-overs must have failed
@@ -140,7 +140,7 @@ excuses:
     # - That's an issue with our legacy software
     # - There must have been a problem with the request
     #v- The browser must have dropped some packets
-    - Eso código no debería haber entrado en producción
+    - Ese código no debería haber entrado en producción
     - Alguien ha debido dejarse código de prueba sin borrar
     - No tuvimos tiempo de mandárselos a QA
     - Ese software debería de haberse actualizado hace siglos
@@ -158,7 +158,7 @@ excuses:
     - Estaba ocupado arreglando otras cosas más importantes
     # - This wasn't filed in the issue tracker
     # - The issue tracker was updated, and some issues were lost
-    - Recuerdas el programador que duró aquí un semana. Sí, él hizo eso
+    - Recuerdas el programador que duró aquí una semana. Sí, él hizo eso
     # - It's not like I can't write that fix in like 5 minutes
     # - The client requested an XML response, but JSON is clearly better
     # - It's most likely a forwarding proxy server that is caching the response
