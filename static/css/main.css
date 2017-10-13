@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 body {
-  background: #0ac5f4;
+  background: #f1f1f1;
   color: #ffffff;
 }
 .wrapper {
@@ -13,9 +13,9 @@ body {
   height: 100%;
 }
 h1 {
-  background: -webkit-linear-gradient(#9ce8fb, #ffffff);
+  background: #212121;
   -webkit-background-clip: text;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Droid', sans-serif;
   text-align: center;
   -webkit-text-fill-color: transparent;
 }
