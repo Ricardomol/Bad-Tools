@@ -21,7 +21,7 @@ class AppView(FlaskView):
         return best == mime and types[best] > types['text/html']
 
     def index(self):
-        ga = FlaskGATracker('www.codingexcuses.com', 'UA-53020725-1')
+        # ga = FlaskGATracker('www.codingexcuses.com', 'UA-53020725-1')
 
         for method in self.accepts:
             if self._accepts(method):
@@ -35,7 +35,7 @@ class AppView(FlaskView):
 
         # Assume it's a browser
         response, path = Which("text/html", request.args).get_response()
-        ga.track(request, session, path=path)
+        # ga.track(request, session, path=path)
         return response
 
 AppView.register(app)
