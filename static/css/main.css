@@ -24,6 +24,7 @@ h1 {
 }
 footer {
   font-family: 'Playball', cursive;
+  color: darkgray;
   margin-top: 50px;
   position: absolute;
   bottom: 10px;
@@ -34,7 +35,7 @@ footer .♥ {
   color: pink;
 }
 footer a {
-  color: #ffffff;
+  color: darkgray;
 }
 .icon-github-circled {
   color: black;
