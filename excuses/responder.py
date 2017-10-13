@@ -1,5 +1,5 @@
 from flask import jsonify, Response, render_template
-from utils import get_excuse
+from excuses.utils import get_excuse
 
 
 class Which(object):
