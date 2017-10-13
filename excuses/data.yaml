@@ -1,166 +1,166 @@
 # Pull requests with new excuses are highly welcome
 
 excuses:
-    - It's a browser issue
-    - I wasn't told how to do that so I had to guess which way they wanted it
-    - The accounting department made me put that there
-    - The sales department made me do it that way
-    - The accounting department made me do it that way
-    - The sales department made me put that there
-    - The accounting department asked it to be that way
-    - The sales department asked for it to be that way
-    - That must be an accounting department error
-    - That must be a sales department error
-    - I had too many projects so I had to rush that feature
-    - I'm still working on that
-    - Why do they want it that way?
-    - The fail-overs must have failed
-    - That's a character encoding issue
-    - I thought that was signed off?
-    - I've never seen that happen before
-    - It works in my dev environment
-    - You mustn't have got my email about that, check your spam
-    - That's just temporary, we're still working on it
-    - I did a quick fix for that already, it must have been reverted
-    - It must be a virus on your system
-    - There must have been a miscommunication on the requirements
-    - We weren't given enough time to write unittests
-    - It's always worked that way
-    - That's a hardware issue
-    - That's an architecture issue
-    - That's a data issue
-    - That's a user issue
-    - That's a support issue
-    - There must be an error with your data
-    - This is the first time anyone has mentioned it
-    - The WYSIWYG editor must have added that
-    - You must be running the wrong version
-    - The tests didn't cover that edge case
-    - I haven't pushed the fix up yet
-    - The error means it has processed correctly
-    - I couldn't recreate that error
-    - It worked before
-    - It has always worked before
-    - Nothing has changed in the code
+    - Eso es problema del navegador
+    - No me dijeron cómo lo querían así que tuve inventarme cómo hacerlo
+    # - The accounting department made me put that there
+    - El departamento de ventas me hizo hacerlo así
+    # - The accounting department made me do it that way
+    # - The sales department made me put that there
+    # - The accounting department asked it to be that way
+    # - The sales department asked for it to be that way
+    # - That must be an accounting department error
+    - Debe de ser error del departamento de ventas
+    - Estaba trabajando en demasiado proyectos así que tuve que hacer eso rápido
+    - Todavía estoy trabajando en eso
+    - Por qué lo quieren así?
+    # - The fail-overs must have failed
+    - Es un problema de codificación de caracteres
+    - Pensé que eso había sido descartado
+    - Nunca había visto que pasara eso
+    - Funciona en mi entorno de desarrollo
+    - No te debe de haber llegado mi mail sobre eso, mira tu carpeta de spam
+    - Es sólo algo temporal, todavía estamos trabajando en ellos
+    - Ya arreglé esa parte, se de haber revertido el commit
+    - Debe ser algún virús en tu sistema
+    - Debe de haber habido algún malentendido en la toma de requisitos
+    - No se nos asignó tiempo suficiente para escribir los tests
+    - Siempre ha funcionado así
+    - Es un problema de hardware
+    - Es un problema de arquitectura
+    - Es un problema de los datos
+    - Es problema del usuario
+    - Es problema de soporte
+    - Debe de haber algún error con tus datos
+    - Es la primera vez que alguien me lo menciona
+    - El editor WYSIWYG debe de haberlo añadido
+    - Seguro que estás usando la versión equivocada
+    - Los tests no cubrían ese caso límite
+    - Todavía no he subido la corrección
+    - El mensaje de error quiere decir que todo ha ido correctamente
+    - No he conseguido reproducir ese error
+    - Antes funcionaba
+    - Siempre ha funcionado hasta ahora
+    - No ha cambiado nada en el código
     - That is just a placeholder
-    - It has never done that before
-    - The 3rd party API must be down
-    - Our code quality is up to industry standards
-    - It must be a bug with the programming language
-    - That is a known bug with the programming language
-    - That is a known bug with the framework
-    - That feature is part of phase two
-    - That feature is set to low priority
-    - That feature is on our roadmap
-    - That feature is a nice to have
-    - It is an intermittent error, just press refresh
-    - Have you cleared your cache?
-    - It must be a browser cache error
-    - That is a problem with our host
+    - Nunca antes había hecho eso
+    - La API externa debe estar caída
+    # - Our code quality is up to industry standards
+    - Debe ser un bug en el lenguaje de programación
+    - Es un bug conocido en el lenguaje de programación
+    - Es un bug conocido en el framework
+    - Esa funcionalidad es parte de la fase dos
+    - Se le ha dado prioridad baja a esa funcionalidad
+    # - That feature is on our roadmap
+    # - That feature is a nice to have
+    - Es sólo un error intermitente. Simplemente dale a recargar la página
+    - Has vaciado tu caché?
+    - Debe ser error de la caché del navegador
+    - Es por un problema de nuestro servidor
     - That is an issue with a legacy system
-    - That has always worked that way
-    - That was like that before I started here
-    - That is a training issue
+    - Eso siempre se ha hecho así
+    - Eso ya estaba así antes de que yo entrase aquí
+    - Es un problema de formación del usuario
     - There isn't the budget to address that at the moment
     - I've not been able to recreate the issue
-    - That's been fixed, but the code still has to be released
-    - That's been fixed on another branch
-    - The developer who coded that doesn't work here anymore
-    - That is part of the old system
-    - I didn't write that part of the system
+    - Eso ya ha sido corregido, pero el código todavía no está subido
+    - Eso ha sido corregido en otra rama
+    - El programador que hizo eso ya no trabaja aquí
+    - Eso es parte del sistema antiguo
+    - Yo no hice esa parte del sistema
     - The fix for that is in progress
-    - Have you updated your browser?
-    - Have you updated your OS?
-    - It is unlikely to happen again
+    - Has actualizado tu navegador?
+    - Has actualizado tu sistema operativo?
+    - Es muy poco probable que eso vuelva a suceder
     - That is a vendor issue
     - The documentation for that feature is wrong
-    - It's not a bug, it's a feature
-    - That is how we were asked to build it
-    - The program was never meant to work that way
-    - We were never asked to make it do that
-    - It must be a Y2K issue
-    - It must be a timezone issue
-    - It must be a unicode issue
-    - Your internet connection mustn't be working
-    - You're doing it wrong
-    - Someone must have changed my code
-    - There must be a problem with the virtual machine
-    - We have to do it that way for security reasons
-    - I just need one more day to work on that
-    - Have you tried refreshing your browser?
-    - That's a problem with a third party application
-    - That code was written by the last guy
-    - Is that not supposed to happen?
+    - No es un error, es una utilidad
+    - Así es como se nos pidió que lo implementásemos
+    - El programa nunca fue diseñado para ser usado de esa manera
+    - Nunca se nos pidió que hiciera eso
+    - Debe ser algo relacionado con el efecto 2000
+    - Debe ser problema de las zonas horarias
+    - Debe ser problema de unicode
+    - Debe ser fallo de tu conexión a internet
+    - Lo estás haciendo mal
+    - Alguien ha debido cambiar mi código
+    - Debe de haber algún problema con la máquina virtual
+    - Tenemos que hacerlo así por motivos de seguridad
+    - Sólo necesito una día más trabajando en eso
+    - Has probado refrescar el navegador?
+    - Es un problema de la librearía externa
+    - Ese código fue escrito por el anterior programador
+    - Acaso no tenía que ser así?
     - It was such a simple change I didn't think it needed testing
-    - What did you do wrong to make it crash?
+    - Qué has hecho mal para que pete?
     - The specification contained conflicting requirements
-    - The specification was ambiguous
-    - It must be a race condition
-    - The file must have corrupted
-    - There is nothing in my error logs
-    - You must be looking at the wrong version
-    - Your browser must be caching the old version
-    - My code is compiling
-    - I was sure that had been fixed
+    - La especificación del requisito era ambigua
+    - Debe ser una condición de carrera
+    - El archivo se debe de haber corrompido
+    - No veo nada en el log de errores
+    - Debes estar mirando la versión equivocada
+    - Tu navegador debe tener cacheada la versión anterior
+    - Mi código está compilando
+    - Juraría que eso ya fue corregido
     - The design makes it difficult to build this correctly
-    - It works perfectly on my machine
-    - I never received a ticket for that
-    - It must be missing some dependencies
-    - We outsourced that part
-    - Well, I've never seen that before
-    - It follows industry standards
-    - That's an industry best practice
-    - We've not received any error notifications
-    - That's a feature
-    - It must be an issue with the firewall
-    - It's just a warning, not an error
-    - That output is only wrong half the time
-    - We broke that deliberately to test it
-    - I couldn't find any library that can do that
-    - We've not been able to reproduce the problem
-    - We must have been stress testing the server
-    - It can't be broken, all the unittests pass
-    - It must just be a coincidence
-    - Our users need more training
-    - It works, but it's not been tested
-    - We didn't have the budget to build it properly
-    - It must be a problem with your internet connection
-    - The behaviour is in the original specification
-    - It was only a small change, I didn't think it needed tests
-    - The last guy wrote that part
-    - That feature isn't due in this phase
-    - That feature is outside of the project scope
-    - That's not in my job description
-    - That's the fault of the designer
-    - That's the fault of the UX designer
-    - That's the fault of the UI designer
-    - There's only a one in a million chance of that error occurring
-    - I don't remember that in the original specification
-    - The client requested that change
-    - That's an issue with our legacy software
-    - There must have been a problem with the request
-    - The browser must have dropped some packets
-    - That code wasn't meant to be in production
+    - Funciona perfectamente en mi máquina
+    # - I never received a ticket for that
+    - Seguro que te falta alguna dependencia
+    - Subcontratamos esa parte
+    # - Well, I've never seen that before
+    # - It follows industry standards
+    # - That's an industry best practice
+    - No hemos recibido ninguna notificación de error
+    # - That's a feature
+    - Debe ser un problema con el firewall
+    - Es sólo un aviso, no es un error
+    - El resultado sólo está mal la mitad de las veces
+    - Rompimos esa parte aposta para probarla
+    - No he encontrado ninguna librería que haga eso
+    - No hemos sido capaces de reproducir el problema
+    - Sería que estabamos haciéndole unas pruebas de estrés al servidor en ese momento
+    - No puede estar roto, todos los tests unitarios pasan
+    - Debe haber sido una casualidad
+    - Nuestros usuarios necesitan más formación
+    - Funciona, pero no ha sido probado
+    - No teníamos el presupuesto necesario para hacerlo correctamente
+    - Debe ser un problema de tu conexión a internet
+    # - The behaviour is in the original specification
+    - Fue sólo un pequeño cambio, no pensé que necesitase tests
+    # - The last guy wrote that part
+    - Esa funcionalidad no está prevista para esta fase del desarrollo
+    - Esa funcionalidad está fuera del ámbito del proyecto
+    # - That's not in my job description
+    # - That's the fault of the designer
+    - Eso es culpa del diseñador de la UI
+    - Eso es culpa del de UX
+    - Las posibilidades de que ocurra ese error son de una en un millón
+    - No recuerdo que se pidiera eso en la especificación del requisito
+    - El cliente pidió ese cambio
+    # - That's an issue with our legacy software
+    # - There must have been a problem with the request
+    #v- The browser must have dropped some packets
+    - Eso código no debería haber entrado en producción
     - Someone must have left some test code in
-    - We didn't have time to send that to QA
-    - That software should have been updated ages ago
-    - I'm sure that was written by a freelancer
+    - No tuvimos tiempo de mandárselos a QA
+    - Ese software debería de haberse actualizado hace siglos
+    - Seguro que eso lo hizo algún freelancer
     - We contracted that work out months ago
-    - Are you sure you want it to work that way?
-    - That code is still in progress
-    - That is just a placeholder
-    - That works at least 80% of the time
-    - I'm pretty sure that works most of the time
-    - That's still a work in progress
-    - I'm pretty sure that's the way it is meant to work
-    - Your email regarding that issue must have hit my spam filter
-    - That issue was filed under a different release version
-    - I was busy fixing more important issues
-    - This wasn't filed in the issue tracker
-    - The issue tracker was updated, and some issues were lost
-    - The dev that worked here for a week? Yeah, he wrote that
-    - It's not like I can't write that fix in like 5 minutes
-    - The client requested an XML response, but JSON is clearly better
-    - It's most likely a forwarding proxy server that is caching the response
-    - That's unlikely to be enterprise scalable
-    - But we are in a startup, what would you expect?
+    - Estás seguro de que quieres que funcione de esa manera?
+    - Esa parte del código todavía no está acabada
+    # - That is just a placeholder
+    - Funciona por lo menos el 80% de las veces
+    - Estoy seguro de que funciona la mayoría de las veces
+    - Todavía estamos tranajando en esa parte
+    - Estoy casi seguro de que ese es el comportamiento correcto
+    - El mail que me enviaste sobre el bug debe haberse colado en mi carpeta de spam
+    # - That issue was filed under a different release version
+    - Estaba ocupado arreglando otras cosas más importantes
+    # - This wasn't filed in the issue tracker
+    # - The issue tracker was updated, and some issues were lost
+    - Recuerdas el programador que duró aquí un semana. Sí, él hizo eso
+    # - It's not like I can't write that fix in like 5 minutes
+    # - The client requested an XML response, but JSON is clearly better
+    # - It's most likely a forwarding proxy server that is caching the response
+    # - That's unlikely to be enterprise scalable
+    - Somos una startup, qué esperabas?!
