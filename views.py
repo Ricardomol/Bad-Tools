@@ -1,5 +1,5 @@
 import os
-from pyga import FlaskGATracker
+# from pyga import FlaskGATracker
 from flask import Flask, request, session
 from flask.ext.classy import FlaskView
 
