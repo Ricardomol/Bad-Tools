@@ -57,12 +57,12 @@ excuses:
     - Has vaciado tu caché?
     - Debe ser error de la caché del navegador
     - Es por un problema de nuestro servidor
-    - That is an issue with a legacy system
+    # - That is an issue with a legacy system
     - Eso siempre se ha hecho así
     - Eso ya estaba así antes de que yo entrase aquí
     - Es un problema de formación del usuario
-    - There isn't the budget to address that at the moment
-    - I've not been able to recreate the issue
+    # - There isn't the budget to address that at the moment
+    # - I've not been able to recreate the issue
     - Eso ya ha sido corregido, pero el código todavía no está subido
     - Eso ha sido corregido en otra rama
     - El programador que hizo eso ya no trabaja aquí
@@ -72,7 +72,7 @@ excuses:
     - Has actualizado tu navegador?
     - Has actualizado tu sistema operativo?
     - Es muy poco probable que eso vuelva a suceder
-    - That is a vendor issue
+    - Es un problema del fabricante
     - The documentation for that feature is wrong
     - No es un error, es una utilidad
     - Así es como se nos pidió que lo implementásemos
@@ -91,9 +91,9 @@ excuses:
     - Es un problema de la librearía externa
     - Ese código fue escrito por el anterior programador
     - Acaso no tenía que ser así?
-    - It was such a simple change I didn't think it needed testing
+    # - It was such a simple change I didn't think it needed testing
     - Qué has hecho mal para que pete?
-    - The specification contained conflicting requirements
+    # - The specification contained conflicting requirements
     - La especificación del requisito era ambigua
     - Debe ser una condición de carrera
     - El archivo se debe de haber corrompido
@@ -118,7 +118,7 @@ excuses:
     - Rompimos esa parte aposta para probarla
     - No he encontrado ninguna librería que haga eso
     - No hemos sido capaces de reproducir el problema
-    - Sería que estabamos haciéndole unas pruebas de estrés al servidor en ese momento
+    - Estaríamos haciéndole unas pruebas de estrés al servidor en ese momento
     - No puede estar roto, todos los tests unitarios pasan
     - Debe haber sido una casualidad
     - Nuestros usuarios necesitan más formación
@@ -141,11 +141,11 @@ excuses:
     # - There must have been a problem with the request
     #v- The browser must have dropped some packets
     - Eso código no debería haber entrado en producción
-    - Someone must have left some test code in
+    - Alguien ha debido dejarse código de prueba sin borrar
     - No tuvimos tiempo de mandárselos a QA
     - Ese software debería de haberse actualizado hace siglos
     - Seguro que eso lo hizo algún freelancer
-    - We contracted that work out months ago
+    - Subcontratamos esa parte hace meses
     - Estás seguro de que quieres que funcione de esa manera?
     - Esa parte del código todavía no está acabada
     # - That is just a placeholder
