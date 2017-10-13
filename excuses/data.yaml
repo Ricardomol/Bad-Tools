@@ -49,14 +49,14 @@ excuses:
     - Debe ser un bug en el lenguaje de programación
     - Es un bug conocido en el lenguaje de programación
     - Es un bug conocido en el framework
-    - Esa funcionalidad es parte de la fase dos
+    - Esa funcionalidad está prevista para la fase dos
     - Se le ha dado prioridad baja a esa funcionalidad
     # - That feature is on our roadmap
     # - That feature is a nice to have
     - Es sólo un error intermitente. Simplemente dale a recargar la página
     - Has vaciado tu caché?
     - Debe ser error de la caché del navegador
-    - Es por un problema de nuestro servidor
+    - Es por un problema del servidor
     # - That is an issue with a legacy system
     - Eso siempre se ha hecho así
     - Eso ya estaba así antes de que yo entrase aquí
@@ -68,7 +68,7 @@ excuses:
     - El programador que hizo eso ya no trabaja aquí
     - Eso es parte del sistema antiguo
     - Yo no hice esa parte del sistema
-    - The fix for that is in progress
+    # - The fix for that is in progress
     - Has actualizado tu navegador?
     - Has actualizado tu sistema operativo?
     - Es muy poco probable que eso vuelva a suceder
@@ -102,7 +102,7 @@ excuses:
     - Tu navegador debe tener cacheada la versión anterior
     - Mi código está compilando
     - Juraría que eso ya fue corregido
-    - The design makes it difficult to build this correctly
+    # - The design makes it difficult to build this correctly
     - Funciona perfectamente en mi máquina
     # - I never received a ticket for that
     - Seguro que te falta alguna dependencia
